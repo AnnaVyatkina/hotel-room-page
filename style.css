@@ -254,6 +254,10 @@ body {
         padding-bottom: 0;
         width: 100%;
     }
+
+    .room__reserved-message {
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 380px) {
@@ -317,6 +321,10 @@ body {
         margin: 0;
         padding-bottom: 0;
         width: 100%;
+    }
+
+    .room__reserved-message {
+        margin: 0 auto;
     }
 }
 
