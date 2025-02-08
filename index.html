@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1">
+    <link rel="icon" href="assets/hotel.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Выбрать номер</title>
+  </head>
+  <body>
+    <main class="rooms">
+      <h1 class="rooms__heading">Номера и цены</h1>
+      <div class="rooms__wrapper">
+        <div class="room">
+            <img class="room__background-image" src="assets/hotel-room-1.jpg" alt="room-1">
+          <div class="room__background">
+           <div class="room__block">
+            <div class="room__info">
+                <a class="room__name-link" href="#"><h2 class="room__name">Представительский люкс</h2></a>
+              <p class="room__description">
+                Эксклюзивный номер с панорамным видом на центр города Москвы
+              </p>
+            </div>
+            <div class="room__book">
+              <div class="room__price">
+                <p class="room__price-description">Цена за сутки</p>
+                <p class="room__price-description">
+                  от <span class="room__price-count">7 900</span
+                  ><span class="room__price-rub">₽</span>
+                </p>
+              </div>
+              <button class="room__book-button">Забронировать</button>
+            </div>
+          </div>
+         </div>
+        </div>
+        <div class="room room--best-price">
+            <img class="room__background-image" src="assets/hotel-room-2.jpg" alt="room 2">
+          <div class="room__background">
+           <div class="room__block">
+            <div class="room__info">
+                <a class="room__name-link" href="#"><h2 class="room__name">Дуплекс</h2></a>
+              <p class="room__description">
+                Просторный двухкомнатный номер с шикарным видом на парк
+              </p>
+            </div>
+            <div class="room__book">
+              <div class="room__price">
+                <p class="room__price-description">Цена за сутки</p>
+                <p class="room__price-description">
+                  от <span class="room__price-count">5 700</span
+                  ><span class="room__price-rub">₽</span>
+                </p>
+              </div>
+              <button class="room__book-button">Забронировать</button>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="room">
+            <img class="room__background-image" src="assets/hotel-room-3.jpg" alt="room 3">
+          <div class="room__background">
+            <div class="room__block">
+              <div class="room__info">
+                <a class="room__name-link" href="#"><h2 class="room__name">Бизнес-люкс</h2></a>
+                <p class="room__description">
+                  Трёхкомнатный номер с панорамным видом на Москва-реку
+                </p>
+              </div>
+              <div class="room__book">
+                <div class="room__price">
+                  <p class="room__price-description">Цена за сутки</p>
+                  <p class="room__price-description">
+                    от <span class="room__price-count">4 900</span
+                    ><span class="room__price-rub">₽</span>
+                  </p>
+                </div>
+                <button class="room__book-button">Забронировать</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
